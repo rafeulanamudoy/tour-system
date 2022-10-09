@@ -4,6 +4,7 @@ const app = express()
 app.use(express.json());
 app.use(cors());
 
+
 const tourRoute = require("./routes/tourPackage.routes");
 const tourRoute2 = require("./routes/tourPackage2.route")
 
